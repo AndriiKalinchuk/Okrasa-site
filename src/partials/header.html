@@ -1,91 +1,163 @@
-<header class="header">
-  <div class="container page-heder-container">
-    <nav class="heder-nav">
-      <a aria-label="Logo" class="link heder-logo" href="./index.html">
-        <!-- <span class="logo-tittle">SIMPLY CHOCOLATE</span> -->
-        <span class="logo-tittle">simply</span>&nbsp;<span class="logo-tittle-for-morgin">chocolate</span>
-        <svg width="24" height="24" class="logo-icon">
-          <use href="./img/icons.svg#icon-chocolate"></use>
-        </svg>
-      </a>
-      <ul class="menu list">
-        <li class="menu-item">
-          <a class="menu-link" href="./">Homepage</a></li>
-        <li class="menu-item">
-          <a class="menu-link" href="#howitsmade">How it’s made?</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="#ourproducts">Our products</a></li>
-        <li class="menu-item">
-          <a class="menu-link" href="#topsellers">Top sellers</a></li>
-        <li class="menu-item">
-          <a class="menu-link" href="#review">Chocolate is loved</a>
-        </li>
-      </ul>
-    </nav>
-    <button aria-label="Open menu button" class="burger-menu-btn js-open-menu" type="button">
-      <svg class="burger-menu-btn-icon" width="30" height="30">
-        <use href="./img/icons.svg#icon-menu-hamburger"></use>
+<div id="menu">
+  <div
+    id="menu__bar"
+    class="color--cotton bg--black flex flex-row md:flex-col justify-between items-center md:pb3"
+  >
+    <a href="/" class="hidden md:block"
+      ><img
+        src="/graphics/monogram_2x.png"
+        alt="Earthfoam"
+        class="w-full h-auto"
+        width="161"
+        height="156"
+    /></a>
+    <div class="cursor-pointer menu__toggle" onclick="window.menuToggle();">
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="27.5303"
+          y1="4.53033"
+          x2="4.90291"
+          y2="27.1577"
+          stroke="currentColor"
+          stroke-width="1.5"
+        ></line>
+        <line
+          x1="27.5303"
+          y1="4.53033"
+          x2="4.90291"
+          y2="27.1577"
+          stroke="currentColor"
+          stroke-width="1.5"
+        ></line>
+        <line
+          x1="27.4697"
+          y1="27.5303"
+          x2="4.84225"
+          y2="4.90291"
+          stroke="currentColor"
+          stroke-width="1.5"
+        ></line>
       </svg>
-    </button>
-    <ul class="heder-social">
-      <li class="social-item">
-        <a aria-label="Instagram open link" class="social-heder-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/"  >
-        <svg width="24" height="24" class="heder-social-svg">
-          <use href="./img/icons.svg#icon-instagram"></use>
-        </svg>
-      </a>
-      </li>
-      <li class="social-item">
-        <a aria-label="Twitter open link" class="social-heder-link" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/">
-        <svg width="24" height="24" class="heder-social-svg">
-          <use href="./img/icons.svg#icon-twitter"></use>
-        </svg>
-      </a>
-      </li>
-    </ul>
-  </div>
-</header>
+    </div>
+    <a href="/" class="md:hidden"
+      ><img
+        src="/graphics/logo_menu.svg"
+        alt="Earthfoam"
+        id="menu__mobileLogo"
+        class="text-center"
+        width="389"
+        height="124"
+        style="height: 32px; width: auto"
+    /></a>
+    <a
+      href="/cart"
+      id="menu__cartButton"
+      class="relative bg--cotton color--black flex items-center justify-center"
+    >
+      <svg
+        width="12"
+        height="12"
+        viewBox="0 0 12 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Cart</title>
+        <path
+          d="M1.86644 11.2C2.3819 11.2 2.79977 10.7822 2.79977 10.2667C2.79977 9.75124 2.3819 9.33337 1.86644 9.33337C1.35097 9.33337 0.933105 9.75124 0.933105 10.2667C0.933105 10.7822 1.35097 11.2 1.86644 11.2Z"
+          fill="currentColor"
+        ></path>
+        <path
+          d="M9.33324 11.2C9.8487 11.2 10.2666 10.7822 10.2666 10.2667C10.2666 9.75124 9.8487 9.33337 9.33324 9.33337C8.81777 9.33337 8.3999 9.75124 8.3999 10.2667C8.3999 10.7822 8.81777 11.2 9.33324 11.2Z"
+          fill="currentColor"
+        ></path>
+        <path
+          d="M10.7334 7.46683H1.22183L1.6885 6.5335H8.86677C8.95997 6.53348 9.05102 6.50555 9.12821 6.45332C9.20539 6.40109 9.26517 6.32694 9.29984 6.24043L11.1665 1.57376C11.1949 1.50296 11.2055 1.42628 11.1973 1.35043C11.1892 1.27459 11.1626 1.20189 11.1199 1.13871C11.0771 1.07552 11.0196 1.02378 10.9522 0.988005C10.8848 0.952229 10.8097 0.933514 10.7334 0.933496H1.5933L0.797168 0.136429C0.709541 0.0488014 0.590692 -0.000427246 0.466768 -0.000427246C0.342844 -0.000427246 0.223995 0.0488014 0.136368 0.136429C0.0487404 0.224057 -0.000488281 0.342905 -0.000488281 0.466829C-0.000488281 0.590753 0.0487404 0.709602 0.136368 0.797229L0.933435 1.59336V5.9567L0.0495679 7.72443C0.0139161 7.79558 -0.00294925 7.87466 0.000574618 7.95416C0.00409849 8.03367 0.0278945 8.11095 0.0697012 8.17866C0.111508 8.24637 0.169936 8.30227 0.239434 8.34104C0.308931 8.37981 0.387188 8.40016 0.466768 8.40017H10.7334C10.8572 8.40017 10.9759 8.351 11.0634 8.26348C11.1509 8.17597 11.2001 8.05727 11.2001 7.9335C11.2001 7.80973 11.1509 7.69103 11.0634 7.60352C10.9759 7.516 10.8572 7.46683 10.7334 7.46683Z"
+          fill="currentColor"
+        ></path>
+      </svg>
 
-<div class="mobile-menu js-menu-container">
-  <button aria-label="Close menu button" class="mobile-menu-btn-closed js-close-menu" type="button">
-    <svg class="modal-btm-close-icon" width="12" height="12">
-      <use href="./img/icons.svg#icon-close-btn"></use>
-    </svg>
-  </button>
-  <ul class="list">
-    <li class="menu-modal-item">
-      <a class="menu-modal" href="./">Homepage</a>
-    </li>
-    <li class="menu-modal-item">
-      <a class="menu-modal" href="#howitsmade">How it’s made?</a>
-    </li>
-    <li class="menu-modal-item">
-      <a class="menu-modal" href="#ourproducts">Our products</a>
-    </li>
-    <li class="menu-modal-item">
-      <a class="menu-modal" href="#topsellers">Top sellers</a>
-    </li>
-    <li class="menu-modal-item">
-      <a class="menu-modal" href="#review">Chocolate is loved</a>
-    </li>
-  </ul>
-  <div class="">
-    <ul class="list social-list-modal">
-      <li class="social-list-item-modal">
-        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-list-link" aria-label="Instagram open link">
-          <svg class="social-list-icon-modal" width="24" height="24">
-            <use href="./img/icons.svg#icon-instagram"></use>
+      <div id="menu__cartIndicator" class="bg--sunset2 absolute"></div>
+    </a>
+  </div>
+
+  <nav
+    id="menu__content"
+    class="color--cotton bg--black h-full flex flex-col lg:justify-between scroll-y"
+  >
+    <ul class="font-menu-lg" style="flex-grow: 4">
+      <li class="mb3"><a href="/products">Shop</a></li>
+      <li class="mb3"><a href="/about">Story</a></li>
+      <li class="mb3"><a href="/blog">Journal</a></li>
+    </ul>
+    <ul class="font-menu-sm mt5 mb5" style="flex-grow: 1">
+      <li class="mb3"><a href="/help/certifications">Certifications</a></li>
+      <li class="mb3">
+        <a href="/help/shipping-and-returns">Shipping &amp; Returns</a>
+      </li>
+      <li class="mb3"><a href="/help/common-questions">Common Questions</a></li>
+
+      <li class="mb3">
+        <a
+          href="https://www.madewithearthfoam.com/"
+          class="flex items-center nav__link"
+          target="_blank"
+          ><span>Made With Earthfoam</span
+          ><svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.83984 9.2326L13.9706 1.10181L14.4437 1.57485L6.31289 9.70565L5.83984 9.2326Z"
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-width="0.75"
+            ></path>
+            <path
+              d="M14.5604 6.08049H13.8734V1.68707H9.46191V1H14.5604L14.5604 6.08049Z"
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-width="0.75"
+            ></path>
+            <path
+              d="M13.2039 14.5599H1V2.35596H7.09293V3.04303H1.66896V13.891H12.5169V8.467H13.2038L13.2039 14.5599Z"
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-width="0.75"
+            ></path>
           </svg>
         </a>
       </li>
-      <li class="social-list-item-modal">
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-list-link" aria-label="Twitter open link">
-          <svg class="social-list-icon-modal" width="24" height="24">
-            <use href="./img/icons.svg#icon-twitter"></use>
-          </svg>
-        </a>
+      <li class="mb3">
+        <a href="/contact" class="flex items-center nav__link"
+          ><span>Contact Us</span></a
+        >
       </li>
     </ul>
-  </div>
+    <footer>
+      <div class="mb3 flex">
+        <a href="https://instagram.com/earthfoam" target="_blank" class="mr3"
+          ><img
+            src="/graphics/soc_inst.svg"
+            alt="Instagram"
+            width="20"
+            height="19"
+        /></a>
+        <a href="https://twitter.com/earthfoam" target="_blank" class="mr3"
+          ><img src="/graphics/soc_tw.svg" alt="Twitter" width="20" height="16"
+        /></a>
+      </div>
+      <p class="font-body-sm font-weight-lt">
+        Copyright © 2023 Okrasa brand. All rights reserved.
+      </p>
+    </footer>
+  </nav>
 </div>
