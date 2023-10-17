@@ -216,10 +216,6 @@ menu__mobileLogo {
   position: relative;
 }
 
-.items-center {
-  align-items: center;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -402,3 +398,220 @@ button {
   margin-top: 60px;
 }
 
+#body__content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: block;
+}
+
+.overflow-h {
+  overflow: hidden;
+}
+
+.block {
+  display: block;
+}
+
+.color--white {
+  color: #FFFFFF;
+}
+
+.bb1--gray1 {
+  border-bottom: 1px solid #3A3A3A;
+}
+
+.marquee--linked {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.marquee {
+  padding: 15px 0;
+  user-select: none;
+}
+
+.pb5 {
+  padding-bottom: 40px;
+}
+
+.pt5 {
+  padding-top: 40px;
+}
+
+.relative {
+  position: relative;
+}
+
+.contentgrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 9px;
+}
+
+.content {
+  max-width: 2400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-span-12 {
+  grid-column-end: span 12;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, min-content);
+  grid-template-areas:
+    "email"
+    "nav"
+    "social"
+    "sinhala";
+}
+
+.mb8 {
+  margin-bottom: 80px;
+}
+
+.footerGrid__emailForm {
+  grid-area: email;
+  max-width: 360px;
+}
+
+.mb4,
+.blogPost .richtext {
+  margin-bottom: 32px;
+}
+
+.font-body-lg,
+.footerGrid__nav,
+.review__policyModal .richtext h1,
+.review__customerName,
+.blogPost .richtext {
+  font-family: "GT America", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.footerGrid__emailForm form {
+  border: 1px solid #5B5B5B;
+  border-radius: 2px;
+}
+
+.footerGrid__emailForm input {
+  outline: none;
+  border: none;
+  color: inherit;
+  background: transparent;
+}
+
+.p2 {
+  padding: 12px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.footerGrid__nav {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-area: nav;
+}
+
+.footerNav__link svg {
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 0.9em;
+  width: auto;
+}
+
+.footerGrid__social {
+  grid-area: social;
+}
+
+.footerGrid__sinhala {
+  grid-area: sinhala;
+}
+
+.pt1 {
+  padding-top: 8px;
+}
+
+.footer__tagline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: footer-tagline;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  user-select: none;
+}
+
+.eyebrow-sm {
+  font-family: "GT America", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 10px;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.footer__tagline--delay {
+  animation-delay: calc(5s);
+}
+
+.b0 {
+  bottom: 0;
+}
+
+.r0 {
+  right: 0;
+}
+
+.l0 {
+  left: 0;
+}
+
+.t0 {
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.modal {
+  z-index: 1000;
+}
+
+.bg--white {
+  background-color: #FFFFFF;
+}
+
+.brad--1 {
+  border-radius: 4px;
+}
+
+.modal__content {
+  max-width: 95vw;
+  max-height: 95vh;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+section {
+  display: block;
+}
