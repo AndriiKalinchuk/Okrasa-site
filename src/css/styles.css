@@ -11643,3 +11643,14 @@ table.table td:first-child {
 .ellipsis {
   text-overflow: ellipsis;
 }
+
+
+.footer-icon {
+  fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-item-link:hover>.footer-icon,
+.footer-icon-item-link:focus>.footer-icon {
+  fill: #fd9222;
+}
