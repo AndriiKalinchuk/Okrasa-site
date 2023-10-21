@@ -1633,7 +1633,7 @@ svg {
 
 .review__variantSelect-menu {
   flex-wrap: wrap;
-  flex-gap: 12px;
+  gap: 12px;
   gap: 12px;
 }
 
@@ -1890,7 +1890,7 @@ svg {
 
 .storyScroller__content {
   padding-top: 60px;
-  min-height: calc(100vh - $mobile-nav-height);
+  min-height: calc(100vh - mobile-nav-height);
 }
 
 @media (min-width: 768px) {
@@ -11650,7 +11650,17 @@ table.table td:first-child {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-item-link:hover>.footer-icon,
-.footer-icon-item-link:focus>.footer-icon {
-  fill: #fd9222;
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: #EA805C;
 }
+/* 
+.burger-icon {
+  fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger-icon:hover,
+.burger-icon:focus {
+  fill: #EA805C;
+} */
