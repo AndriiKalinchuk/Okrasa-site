@@ -2728,7 +2728,7 @@ table.table td:first-child {
 
 [data-animate~="fade-in"] {
   opacity: 1;
-  transition-propery: opacity;
+  transition-property: opacity;
 }
 
 [data-animate~="slide-up"],
@@ -2792,7 +2792,7 @@ table.table td:first-child {
 
   [data-animate~="sm:fade-in"] {
     opacity: 1;
-    transition-propery: opacity;
+    transition-property: opacity;
   }
 
   [data-animate~="sm:slide-up"],
@@ -2857,7 +2857,7 @@ table.table td:first-child {
 
   [data-animate~="md:fade-in"] {
     opacity: 1;
-    transition-propery: opacity;
+    transition-property: opacity;
   }
 
   [data-animate~="md:slide-up"],
@@ -2922,7 +2922,7 @@ table.table td:first-child {
 
   [data-animate~="lg:fade-in"] {
     opacity: 1;
-    transition-propery: opacity;
+    transition-property: opacity;
   }
 
   [data-animate~="lg:slide-up"],
@@ -2987,7 +2987,7 @@ table.table td:first-child {
 
   [data-animate~="xl:fade-in"] {
     opacity: 1;
-    transition-propery: opacity;
+    transition-property: opacity;
   }
 
   [data-animate~="xl:slide-up"],
@@ -3052,7 +3052,7 @@ table.table td:first-child {
 
   [data-animate~="xxl:fade-in"] {
     opacity: 1;
-    transition-propery: opacity;
+    transition-property: opacity;
   }
 
   [data-animate~="xxl:slide-up"],
