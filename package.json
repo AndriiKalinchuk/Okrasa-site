@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-team-project-growit/",
+    "build": "vite build --base=/Okrasa-site/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -15,7 +15,5 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
   }
 }
