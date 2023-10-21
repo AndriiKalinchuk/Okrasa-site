@@ -170,7 +170,7 @@ body.js-loading #body__contentWrapper {
 }
 
 #menu__content a:hover {
-  color: #EA805C;
+  color: #8e8d8a;
 }
 
 #menu__cartButton {
@@ -213,7 +213,7 @@ body.js-loading #body__contentWrapper {
 }
 
 #menu__cartButton.menu__cartButton--alert {
-  background-color: #EA805C;
+  background-color: #8e8d8a;
 }
 
 #menu__cartButton.menu__cartButton--alert #menu__cartIndicator {
@@ -293,7 +293,7 @@ body.js-menu-visible .menu__toggle svg line:nth-child(1) {
 }
 
 .nav__link:hover svg {
-  fill: #EA805C;
+  fill: #8e8d8a;
 }
 
 .content {
@@ -982,7 +982,7 @@ svg {
 }
 
 .button:hover {
-  background-color: #EA805C;
+  background-color: #8e8d8a;
 }
 
 .button:disabled {
@@ -2094,7 +2094,7 @@ svg {
 
 .marquee--linked:hover {
   color: #FFFFFF;
-  background-color: #EA805C;
+  background-color: #8e8d8a;
 }
 
 @keyframes marquee {
@@ -3238,7 +3238,7 @@ table.table td:first-child {
 }
 
 .b--sunset1 {
-  border: 1px solid #EA805C;
+  border: 1px solid #8e8d8a;
 }
 
 .b--sunset2 {
@@ -3278,7 +3278,7 @@ table.table td:first-child {
 }
 
 .bt1--sunset1 {
-  border-top: 1px solid #EA805C;
+  border-top: 1px solid #8e8d8a;
 }
 
 .bt1--sunset2 {
@@ -3314,7 +3314,7 @@ table.table td:first-child {
 }
 
 .bb1--sunset1 {
-  border-bottom: 1px solid #EA805C;
+  border-bottom: 1px solid #8e8d8a;
 }
 
 .bb1--sunset2 {
@@ -3350,7 +3350,7 @@ table.table td:first-child {
 }
 
 .bl1--sunset1 {
-  border-left: 1px solid #EA805C;
+  border-left: 1px solid #8e8d8a;
 }
 
 .bl1--sunset2 {
@@ -3386,7 +3386,7 @@ table.table td:first-child {
 }
 
 .br1--sunset1 {
-  border-right: 1px solid #EA805C;
+  border-right: 1px solid #8e8d8a;
 }
 
 .br1--sunset2 {
@@ -3501,31 +3501,31 @@ table.table td:first-child {
 
 @media (min-width: 640px) {
   .sm\:b--sunset1 {
-    border: 1px solid #EA805C;
+    border: 1px solid #8e8d8a;
   }
 }
 
 @media (min-width: 768px) {
   .md\:b--sunset1 {
-    border: 1px solid #EA805C;
+    border: 1px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:b--sunset1 {
-    border: 1px solid #EA805C;
+    border: 1px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:b--sunset1 {
-    border: 1px solid #EA805C;
+    border: 1px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1536px) {
   .xxl\:b--sunset1 {
-    border: 1px solid #EA805C;
+    border: 1px solid #8e8d8a;
   }
 }
 
@@ -3831,51 +3831,51 @@ table.table td:first-child {
 
 @media (min-width: 640px) {
   .sm\:bt1--sunset1 {
-    border-top: 1px solid #EA805C;
+    border-top: 1px solid #8e8d8a;
   }
 
   .sm\:bt0--sunset1 {
-    border-top: 0px solid #EA805C;
+    border-top: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 768px) {
   .md\:bt1--sunset1 {
-    border-top: 1px solid #EA805C;
+    border-top: 1px solid #8e8d8a;
   }
 
   .md\:bt0--sunset1 {
-    border-top: 0px solid #EA805C;
+    border-top: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:bt1--sunset1 {
-    border-top: 1px solid #EA805C;
+    border-top: 1px solid #8e8d8a;
   }
 
   .lg\:bt0--sunset1 {
-    border-top: 0px solid #EA805C;
+    border-top: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:bt1--sunset1 {
-    border-top: 1px solid #EA805C;
+    border-top: 1px solid #8e8d8a;
   }
 
   .xl\:bt0--sunset1 {
-    border-top: 0px solid #EA805C;
+    border-top: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1536px) {
   .xxl\:bt1--sunset1 {
-    border-top: 1px solid #EA805C;
+    border-top: 1px solid #8e8d8a;
   }
 
   .xxl\:bt0--sunset1 {
-    border-top: 0px solid #EA805C;
+    border-top: 0px solid #8e8d8a;
   }
 }
 
@@ -4285,51 +4285,51 @@ table.table td:first-child {
 
 @media (min-width: 640px) {
   .sm\:bb1--sunset1 {
-    border-bottom: 1px solid #EA805C;
+    border-bottom: 1px solid #8e8d8a;
   }
 
   .sm\:bb0--sunset1 {
-    border-bottom: 0px solid #EA805C;
+    border-bottom: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 768px) {
   .md\:bb1--sunset1 {
-    border-bottom: 1px solid #EA805C;
+    border-bottom: 1px solid #8e8d8a;
   }
 
   .md\:bb0--sunset1 {
-    border-bottom: 0px solid #EA805C;
+    border-bottom: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:bb1--sunset1 {
-    border-bottom: 1px solid #EA805C;
+    border-bottom: 1px solid #8e8d8a;
   }
 
   .lg\:bb0--sunset1 {
-    border-bottom: 0px solid #EA805C;
+    border-bottom: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:bb1--sunset1 {
-    border-bottom: 1px solid #EA805C;
+    border-bottom: 1px solid #8e8d8a;
   }
 
   .xl\:bb0--sunset1 {
-    border-bottom: 0px solid #EA805C;
+    border-bottom: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1536px) {
   .xxl\:bb1--sunset1 {
-    border-bottom: 1px solid #EA805C;
+    border-bottom: 1px solid #8e8d8a;
   }
 
   .xxl\:bb0--sunset1 {
-    border-bottom: 0px solid #EA805C;
+    border-bottom: 0px solid #8e8d8a;
   }
 }
 
@@ -4739,51 +4739,51 @@ table.table td:first-child {
 
 @media (min-width: 640px) {
   .sm\:bl1--sunset1 {
-    border-left: 1px solid #EA805C;
+    border-left: 1px solid #8e8d8a;
   }
 
   .sm\:bl0--sunset1 {
-    border-left: 0px solid #EA805C;
+    border-left: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 768px) {
   .md\:bl1--sunset1 {
-    border-left: 1px solid #EA805C;
+    border-left: 1px solid #8e8d8a;
   }
 
   .md\:bl0--sunset1 {
-    border-left: 0px solid #EA805C;
+    border-left: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:bl1--sunset1 {
-    border-left: 1px solid #EA805C;
+    border-left: 1px solid #8e8d8a;
   }
 
   .lg\:bl0--sunset1 {
-    border-left: 0px solid #EA805C;
+    border-left: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:bl1--sunset1 {
-    border-left: 1px solid #EA805C;
+    border-left: 1px solid #8e8d8a;
   }
 
   .xl\:bl0--sunset1 {
-    border-left: 0px solid #EA805C;
+    border-left: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1536px) {
   .xxl\:bl1--sunset1 {
-    border-left: 1px solid #EA805C;
+    border-left: 1px solid #8e8d8a;
   }
 
   .xxl\:bl0--sunset1 {
-    border-left: 0px solid #EA805C;
+    border-left: 0px solid #8e8d8a;
   }
 }
 
@@ -5193,51 +5193,51 @@ table.table td:first-child {
 
 @media (min-width: 640px) {
   .sm\:br1--sunset1 {
-    border-right: 1px solid #EA805C;
+    border-right: 1px solid #8e8d8a;
   }
 
   .sm\:br0--sunset1 {
-    border-right: 0px solid #EA805C;
+    border-right: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 768px) {
   .md\:br1--sunset1 {
-    border-right: 1px solid #EA805C;
+    border-right: 1px solid #8e8d8a;
   }
 
   .md\:br0--sunset1 {
-    border-right: 0px solid #EA805C;
+    border-right: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:br1--sunset1 {
-    border-right: 1px solid #EA805C;
+    border-right: 1px solid #8e8d8a;
   }
 
   .lg\:br0--sunset1 {
-    border-right: 0px solid #EA805C;
+    border-right: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:br1--sunset1 {
-    border-right: 1px solid #EA805C;
+    border-right: 1px solid #8e8d8a;
   }
 
   .xl\:br0--sunset1 {
-    border-right: 0px solid #EA805C;
+    border-right: 0px solid #8e8d8a;
   }
 }
 
 @media (min-width: 1536px) {
   .xxl\:br1--sunset1 {
-    border-right: 1px solid #EA805C;
+    border-right: 1px solid #8e8d8a;
   }
 
   .xxl\:br0--sunset1 {
-    border-right: 0px solid #EA805C;
+    border-right: 0px solid #8e8d8a;
   }
 }
 
@@ -5644,7 +5644,7 @@ table.table td:first-child {
 }
 
 .color--sunset1 {
-  color: #EA805C;
+  color: #8e8d8a;
 }
 
 .color--sunset2 {
@@ -5680,7 +5680,7 @@ table.table td:first-child {
 }
 
 .bg--sunset1 {
-  background-color: #EA805C;
+  background-color: #8e8d8a;
 }
 
 .bg--sunset2 {
@@ -11651,7 +11651,7 @@ table.table td:first-child {
 
 .footer-icon:hover,
 .footer-icon:focus {
-  fill: #EA805C;
+  fill: #8e8d8a;
 }
 /* 
 .burger-icon {
@@ -11661,5 +11661,5 @@ table.table td:first-child {
 
 .burger-icon:hover,
 .burger-icon:focus {
-  fill: #EA805C;
+  fill: #8e8d8a;
 } */
